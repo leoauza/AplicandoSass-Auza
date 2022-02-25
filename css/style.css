@@ -1,0 +1,91 @@
+header nav.navbar, header nav.bg-light {
+  padding-top: 0%;
+  --bs-bg-opacity: none;
+}
+header nav.navbar div.container-fluid, header nav.bg-light div.container-fluid {
+  background: linear-gradient(to bottom, #00ccff, #f700ff);
+  font-family: "Dolce Vita Bold";
+}
+header nav.navbar div.container-fluid div ul li ul.dropdown-menu.show, header nav.bg-light div.container-fluid div ul li ul.dropdown-menu.show {
+  background-color: transparent;
+  border: none;
+}
+header nav.navbar div.container-fluid div ul li ul.dropdown-menu.show li a.first-dropdown, header nav.bg-light div.container-fluid div ul li ul.dropdown-menu.show li a.first-dropdown {
+  background: linear-gradient(to bottom, #00ccff, #f700ff);
+}
+header nav.navbar div.container-fluid div ul li ul.dropdown-menu.show li a.second-dropdown, header nav.bg-light div.container-fluid div ul li ul.dropdown-menu.show li a.second-dropdown {
+  background: #f700ff;
+}
+@media screen and (max-width: 480px) {
+  header nav.navbar div.container-fluid div ul li ul.dropdown-menu.show li a.first-dropdown {
+    background: linear-gradient(to bottom, #726dff, #9d4aff);
+  }
+  header nav.navbar div.container-fluid div ul li ul.dropdown-menu.show li a.second-dropdown {
+    background: #9d4aff;
+  }
+}
+
+body {
+  background-image: url(../images/alt_bg.png);
+}
+
+footer.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+section.Inicio {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+section.Inicio h2.titulos {
+  font-family: "Dolce Vita Bold";
+  color: #fc1297;
+  text-shadow: #5973f7 1.25px 1.25px;
+  text-align: center;
+}
+
+section.segunda {
+  margin-top: 39.5px;
+}
+section.segunda img {
+  display: block;
+  margin: auto;
+  width: 160px;
+}
+section.segunda h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #d8269d;
+  margin-top: 3.5px;
+  text-shadow: #5973f7 0.5px 0.5px;
+  text-align: center;
+}
+section.segunda p.text-lanzamiento {
+  margin-left: 25%;
+  margin-right: 25%;
+  color: #d8269d;
+  text-shadow: #5973f7 0.5px 0.5px;
+}
+
+div div div h3.titulos-novedades {
+  color: #fc1297;
+  background-color: #5973f7;
+}
+div div div h5 {
+  text-align: center;
+  color: #fc1297;
+  background-color: yellow;
+}
+div div div p.texto-novedades {
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Dolce Vita Bold";
+  src: url(../fonts/Dolce\ Vita\ Heavy\ Bold.ttf);
+}
+
+/*# sourceMappingURL=style.css.map */
